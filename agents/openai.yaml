@@ -1,0 +1,6 @@
+interface:
+  display_name: "Slides + Transcript PDF"
+  short_description: "把课程幻灯片和逐字稿自适应排成 A4 复习讲稿 PDF"
+  default_prompt: "Use $slides-transcript-pdf to align these slides with the transcript and create a printable, density-adaptive A4 review PDF beside the source deck in an MMDD lecture folder under the course's slides directory."
+policy:
+  allow_implicit_invocation: true
